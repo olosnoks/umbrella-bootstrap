@@ -1,0 +1,335 @@
+/* generic */
+:root {
+
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+.icon-recycle {
+    width: 1em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.sub-header {
+    margin-right: -115px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* header */
+
+.logo-img {
+    margin-top: 15px;
+    height: 68px;
+}
+
+.logo-name {
+    margin: 0;
+    font-size: 42px;
+}
+
+.logo-idea {
+    margin-top: -12px;
+    font-size: 26px;
+}
+
+.top-nav {
+    padding: 0;
+}
+
+.top-nav-item {
+    display: inline;
+    margin-top: -65px;
+    padding-right: 55px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.carousel {
+    height: 600px;
+}
+
+.carousel-inner {
+    background-color: #a0c63e;
+}
+
+.carousel-img {
+    margin-left: 202px;
+    max-width: 1000px;
+    height: 600px;
+}
+
+.sr-only {
+    display: none;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    margin: 275px 75px;
+    border: 2px solid white;
+    border-radius: 50%;
+    border-width: 4px;
+    border-color: white;
+    height: 50px;
+    width: 50px;
+}
+
+.caption1 {
+    margin-bottom: 275px;
+    margin-left: 850px;
+    text-align: right;
+    width: 400px;
+}
+
+.caption2 {
+    margin-bottom: 200px;
+    margin-left: 1000px;
+    text-align: right;
+    width: 400px;
+}
+
+.caption3 {
+    margin-bottom: 200px;
+    margin-left: 900px;
+    text-align: center;
+    width: 400px;
+}
+
+/* close header */
+
+/* main */
+
+.main {
+    background-color: #fafafa;
+    border-bottom: 3px solid lightgrey;
+}
+
+.welcome-message {
+    padding: 30px;
+    text-transform: uppercase;
+}
+
+.green {
+    color: #a0c63e;
+}
+
+.section1-icon {
+    color: white;
+    background-color: #8eb63c;
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    padding: 25px;
+}
+
+.figure-caption1 {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.figure-caption2 {
+    margin-top: -8px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.section2 {
+    padding: 30px;
+}
+
+.card {
+    max-width: 550px;
+}
+
+.card-title {
+    text-transform: uppercase;
+}
+
+.card-body {
+    margin-top: -10px;
+    padding-left: 0;
+}
+
+.card-text {
+    margin-top: 5px;
+}
+
+.button {
+    padding: 2px 10px;
+    background-color: #8eb63c;
+    color: white;
+    text-transform: uppercase;
+}
+
+.back-to-top {
+    /* margin: 45px -85px 15px; */
+    display: flex;
+    flex-direction: row-reverse;
+    scroll-behavior: smooth;
+}
+
+.back-item {
+    background-color: #a0c63e;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+    color: white;
+}
+
+/* Start Footer */
+
+.footer {
+    padding: 45px 0 0;
+}
+
+.follow-item {
+    padding-right: 10px;
+}
+
+.footer .icon {
+    font-size: 22px;
+}
+
+.archives-list-item {
+    text-transform: capitalize;
+    color: black;
+}
+
+.contact-list-item {
+    padding-bottom: 20px;
+}
+
+.contact-icon {
+    width: 35px;
+    height: 35px;
+}
+
+.contact-info {
+    color: black;
+}
+
+.subscribe-button {
+    margin-top: 10px;
+    background-color: #8eb63c;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer-bottom {
+    margin-top: 15px;
+    background-color: black;
+    height: 40px;
+}
+
+.foot-btm-item {
+    margin-top: 8px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.colophon-text {
+    display: inline;
+    margin-top: -25px;
+    color: white;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .logo-img {
+        margin-top: 12px;
+        height: 40px;
+    }
+    .logo-name {
+        font-size: 26px;
+    }
+    .logo-idea {
+        font-size: 17px;
+    }
+    .top-nav {
+        margin-left: 10px;
+        display: flex;
+        align-items: baseline;
+    }
+    .top-nav-item {
+        margin: 0;
+    }
+    .welcome-message {
+        font-size: 24px;
+    }
+    .section1-icon {
+        color: white;
+        background-color: #8eb63c;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        padding: 12px;
+    }
+    .figure-caption1 {
+        font-size: 16px;
+    }
+    .figure-caption2 {
+        font-size: 13px;
+    }
+    .section2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .section2 .sub-header {
+        text-align: center;
+    }
+    .card-body {
+        text-align: center;
+    }
+    .back-to-top {
+        padding: 10px;
+        justify-content: center;
+    }
+    .main-footer {
+        text-align: center;
+    }
+    .main-footer h4 {
+        margin-bottom: -15px;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo-box {
+        padding: 0;
+    }
+    .logo-img {
+        height: 55px;
+    }
+    .logo-name {
+        font-size: 36px;
+    }
+    .logo-idea {
+        font-size: 23px;
+    }
+    .top-nav {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: baseline;
+    }
+    .top-nav-item {
+        margin: 0;
+    }
+    .archives-list {
+        margin-top: 15px;
+    }
+    .main-footer {
+        text-align: center;
+    }
+}
