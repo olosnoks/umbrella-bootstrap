@@ -38,8 +38,8 @@
 }
 
 .logo-idea {
-    margin-top: -12px;
-    font-size: 26px;
+    margin-top: -10px;
+    font-size: 25px;
 }
 
 .top-nav {
@@ -48,14 +48,14 @@
 
 .top-nav-item {
     display: inline;
-    margin-top: -65px;
-    padding-right: 55px;
+    margin-top: -60px;
+    padding-right: 50px;
     color: black;
     text-transform: uppercase;
 }
 
 .carousel {
-    height: 600px;
+    height: 500px;
 }
 
 .carousel-inner {
@@ -63,9 +63,9 @@
 }
 
 .carousel-img {
-    margin-left: 202px;
+    margin-left: 200px;
     max-width: 1000px;
-    height: 600px;
+    height: 500px;
 }
 
 .sr-only {
