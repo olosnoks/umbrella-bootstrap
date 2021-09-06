@@ -172,7 +172,6 @@
 }
 
 .back-to-top {
-    /* margin: 45px -85px 15px; */
     display: flex;
     flex-direction: row-reverse;
     scroll-behavior: smooth;
@@ -187,7 +186,9 @@
     color: white;
 }
 
-/* Start Footer */
+/* close main */
+
+/* footer */
 
 .footer {
     padding: 45px 0 0;
