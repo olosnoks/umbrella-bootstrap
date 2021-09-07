@@ -1,6 +1,6 @@
 /* generic */
-:root {
-
+* {
+    box-sizing: border-box;
 }
 
 .icon {
