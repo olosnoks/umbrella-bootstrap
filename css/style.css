@@ -54,18 +54,8 @@
     text-transform: uppercase;
 }
 
-.carousel {
-    height: 500px;
-}
-
 .carousel-inner {
     background-color: #a0c63e;
-}
-
-.carousel-img {
-    margin-left: 200px;
-    max-width: 1000px;
-    height: 500px;
 }
 
 .sr-only {
